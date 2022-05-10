@@ -13,3 +13,139 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+body {
+  margin: 33px;
+}
+
+.top{
+  margin: 33px;
+}
+
+
+.Bookers{
+  font-weight: bold;
+}
+
+.green{
+  margin:33px;
+  color:#008000;
+}
+
+.back{
+  margin:0px;
+}
+
+.newbook{
+  display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+
+
+.edit-title{
+  margin:17.42px 0px;
+  font-size:26px;
+}
+
+.edit-body{
+  font-size:13px;
+}
+
+.field{
+  margin-bottom:10px;
+}
+
+.flash{
+  margin:33px;
+  font-size: 13px;
+  color: #008000;
+}
+
+.field_with_errors {
+background-color: #ff0000;
+padding: 2px;
+display: table;
+}
+
+.error{
+  width: 450px;
+  padding:7px 7px 0px;
+  border: 2px solid red;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+li{
+  display: list-item;
+  text-align: center;
+  text-align: -webkit-match-parent;
+}
+
+.error-title{
+  text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0;
+    background-color: #c00;
+    color: #fff;
+}
+
+ul{
+  font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+  display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

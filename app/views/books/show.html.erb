@@ -1,0 +1,12 @@
+<p class = green>
+    <% flash.each do |message_type, message| %>
+      <%= message %>
+    <% end %>
+</p>
+
+<p class = top><strong>title:</strong><%= @book.title %></p>
+<p class = top><strong>body:</strong><%= @book.body %></p>
+
+
+ <strong class=back><%= link_to "edit", edit_book_path(@book.id) %></strong> | <strong class=back><%= link_to "back", "/books" %></strong>
+
